@@ -26,7 +26,3 @@ module "lambda" {
   opensearch_endpoint = module.opensearch.opensearch_endpoint
   index_name         = var.index_name
 }
-
-output "opensearch_endpoint" {
-  value = module.opensearch.opensearch_endpoint
-}

@@ -24,6 +24,4 @@ resource "aws_iam_role_policy_attachment" "lambda_policies" {
   policy_arn = each.value
 }
 
-output "role_arn" {
-  value = aws_iam_role.lambda_exec.arn
-}
+
