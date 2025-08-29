@@ -3,7 +3,9 @@ name: Deploy Modular RAG FAQ Infra
 
 on:
   push:
-    branches: [master]
+    branches: 
+      - main
+      - master
 
 jobs:
   deploy:
